@@ -1,8 +1,8 @@
 # ImagePicker
 
+// Set "imageSourceType" - .camera OR .photoLibrary
 
-
- ImagePicker.openImagePickerController(viewController: self, imageSourceType: index == 0 ? .photoLibrary : .camera, completion: { (image) in
+ ImagePicker.openImagePickerController(viewController: self, imageSourceType: .photoLibrary , completion: { (image) in
  
                 
     print(image)

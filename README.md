@@ -1,8 +1,10 @@
 # ImagePicker
 
 	// Set "imageSourceType" - .camera OR .photoLibrary
+	
+	let vc = UIViewController()
 
- 	ImagePicker.openImagePickerController(viewController: self, imageSourceType: .photoLibrary , completion: { (image) in
+ 	ImagePicker.openImagePickerController(viewController: vc, imageSourceType: .photoLibrary , completion: { (image) in
  
    		 print(image)
    		 // DO STUFF HERE WITH SELECTED IMAGE
